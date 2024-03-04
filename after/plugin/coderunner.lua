@@ -24,6 +24,10 @@ require('code_runner').setup({
       "-o $fileNameWithoutExt &&",
       "$fileNameWithoutExt",
     },
+    go = {
+        "cd $dir &&",
+        "go run $fileName"
+    }
   },
 })
 
