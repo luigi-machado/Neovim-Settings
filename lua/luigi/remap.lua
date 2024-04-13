@@ -27,3 +27,4 @@ vim.keymap.set("n", "<C-k>", "<C-w>k")
 --vim.keymap.set("n", "<leader>;", "mz$a;<esc>`z")
 
 vim.keymap.set("n", "<leader>bo", "<cmd>%bd|e#<cr>", {desc="Close all buffers but the current one"}) -- https://stackoverflow.com/a/42071865/516188
+vim.keymap.set("n", "<leader>a", "ggVG")
