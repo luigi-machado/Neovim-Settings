@@ -16,13 +16,13 @@ require('code_runner').setup({
       "cd $dir &&",
       "gcc $fileName",
       "-o $fileNameWithoutExt &&",
-      "$fileNameWithoutExt",
+      "./$fileNameWithoutExt",
     },
     cpp = {
       "cd $dir &&",
       "g++ $fileName",
       "-o $fileNameWithoutExt &&",
-      "$fileNameWithoutExt",
+      "./$fileNameWithoutExt",
     },
     go = {
         "cd $dir &&",

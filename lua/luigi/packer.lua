@@ -62,6 +62,8 @@ return require('packer').startup(function(use)
     }
 
     use { "sainnhe/gruvbox-material" }
+    use { "https://github.com/catppuccin/nvim" }
+    use { "https://github.com/Mofiqul/dracula.nvim" }
     use { "ellisonleao/gruvbox.nvim" }
     --use { "morhetz/gruvbox"}
 end)
